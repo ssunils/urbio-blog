@@ -1,8 +1,15 @@
 import type { Metadata } from "next";
-import { Inter } from 'next/font/google'
-import "./globals.css";
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
+import { Roboto } from 'next/font/google';
+import { Typography } from "@mui/material";
+import ThemeRegistry from "@/components/ThemeRegistry";
 
-const inter = Inter({ subsets: ['latin'] })
+const roboto = Roboto({
+  weight: ['300', '400', '500', '700'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-roboto',
+});
 
 export const metadata: Metadata = {
   title: "Urbio Blog",
@@ -16,8 +23,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className}`}>
-        {children}
+      <body className={roboto.variable}>
+        <AppRouterCacheProvider>
+          <Typography variant="h4" gutterBottom>Urbio Blog</Typography>
+          <ThemeRegistry>
+            {children}
+          </ThemeRegistry>
+        </AppRouterCacheProvider>
       </body>
     </html>
   );
