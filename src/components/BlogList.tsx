@@ -1,16 +1,32 @@
 import { Stack } from "@mui/material";
 import BlogCard from "./BlogCard";
 import { Post } from "@/app/types/blog";
+import { JSX } from "react";
+import { dehydrate, HydrationBoundary, QueryClient } from "@tanstack/react-query";
+import { fetchPosts } from "@/service/posts";
 
 interface BlogListProps {
     initialPosts: Post[];
 }
-export const BlogList: React.FC<BlogListProps> = ({ initialPosts }) => (
-    <Stack>
-        {initialPosts.map((post) =>
-            <BlogCard key={post.id} {...post} />
-        )}
-    </Stack>
-)
+
+
+const BlogList: React.FC<BlogListProps> = async ({ initialPosts }) => {
+    const queryClient = new QueryClient()
+
+    await queryClient.prefetchQuery({
+        queryKey: ['posts'],
+        queryFn: () => fetchPosts(1, 10),
+        initialData: initialPosts,
+    })
+    return (
+        <Stack>
+            <HydrationBoundary state={dehydrate(queryClient)}>
+                {initialPosts.map((post: JSX.IntrinsicAttributes & Post) => (
+                    <BlogCard key={post.id} {...post} />
+                ))}
+            </HydrationBoundary>
+        </Stack>
+    );
+};
 
 export default BlogList
