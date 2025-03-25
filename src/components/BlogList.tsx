@@ -19,13 +19,11 @@ const BlogList: React.FC<BlogListProps> = async ({ initialPosts }) => {
         initialData: initialPosts,
     })
     return (
-        <Stack>
-            <HydrationBoundary state={dehydrate(queryClient)}>
-                {initialPosts.map((post: JSX.IntrinsicAttributes & Post) => (
-                    <BlogCard key={post.id} {...post} />
-                ))}
-            </HydrationBoundary>
-        </Stack>
+        <HydrationBoundary state={dehydrate(queryClient)}>
+            {initialPosts.map((post: JSX.IntrinsicAttributes & Post) => (
+                <BlogCard key={post.id} {...post} />
+            ))}
+        </HydrationBoundary>
     );
 };
 

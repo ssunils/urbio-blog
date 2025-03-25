@@ -29,7 +29,7 @@ export default function RootLayout({
           <ThemeRegistry>
             <Header />
             <Providers>
-            {children}
+              {children}
             </Providers>
           </ThemeRegistry>
         </AppRouterCacheProvider>

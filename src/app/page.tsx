@@ -1,24 +1,25 @@
 import React from 'react';
-import { Chip, Container, Grid2 } from '@mui/material';
+import { Box, Button, Chip, Container, Grid2, Stack, Typography } from '@mui/material';
 import BlogList from '@/components/BlogList';
 import { fetchPosts } from '@/service/posts';
+import Link from 'next/link';
+import { SideBar } from '@/components/SideBar';
 
 export default async function HomePage() {
   const initialPosts = await fetchPosts(1, 10);
 
   return (
     <Container maxWidth="lg" sx={{ my: 6 }}>
-      <Grid2 container justifyContent="space-between" columns={12}>
-        <Grid2 size={9}>
+      <Grid2 container justifyContent="space-between" spacing={2} columns={12} sx={{ position: 'relative' }}>
+        <Grid2 size={{ xs: 12, md: 9 }} >
           <h2>Latest from our blog</h2>
           <BlogList initialPosts={initialPosts.articles} />
         </Grid2>
-        <Grid2 size={3}>
-          <h4>Popular Topics</h4>
-          <Chip label="Artificial Intelligence" color="warning" variant='outlined' size="medium" sx={{ mb: 1, mr: 1 }} />
-          <Chip label="Data Science" color="warning" variant='outlined' size="medium" sx={{ mb: 1 }} />
-          <Chip label="Self Development" color="warning" variant='outlined' size="medium" sx={{ mb: 1 }} />
-          <Chip label="Crypto Currency" color="warning" variant='outlined' size="medium" sx={{ mb: 1 }} />
+        <Grid2 size={{ xs: 12, md: 3 }} sx={{
+          position: 'sticky',
+          top: 100,
+        }}>
+          <SideBar />
         </Grid2>
       </Grid2>
     </Container>

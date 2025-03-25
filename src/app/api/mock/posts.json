@@ -5,7 +5,7 @@
       "title": "Exploring the Wonders of Machine Learning",
       "excerpt": "Machine learning has revolutionized various industries by automating complex processes and uncovering hidden patterns within massive data sets...",
       "content": "## Introduction\nMachine learning, a subset of artificial intelligence...",
-      "image": "machine-learning.jpg"
+      "image": "/img/1.jpg"
     },
     {
       "id": 2,
@@ -13,7 +13,7 @@
       "title": "The Evolution of Web Development",
       "excerpt": "Web development has experienced a rapid evolution from simple static web pages to complex interactive applications...",
       "content": "## Introduction\nWeb development has come a long way since the first static HTML pages...",
-      "image": "web-development.jpg"
+      "image": "/img/2.jpg"
     },
     {
       "id": 3,
@@ -21,7 +21,7 @@
       "title": "Advancements in Renewable Energy",
       "excerpt": "Renewable energy sources have significantly advanced, offering cleaner alternatives and helping combat climate change...",
       "content": "## Introduction\nRenewable energy has seen significant advancements, driven by global efforts to reduce greenhouse gas emissions...",
-      "image": "renewable-energy.jpg"
+      "image": "/img/3.jpg"
     },
     {
       "id": 4,
@@ -29,7 +29,7 @@
       "title": "Blockchain Beyond Cryptocurrency",
       "excerpt": "Blockchain technology, while widely known for cryptocurrencies, is being utilized in diverse sectors from healthcare to logistics...",
       "content": "## Introduction\nBlockchain technology emerged as the backbone of cryptocurrencies but has since expanded into numerous other industries...",
-      "image": "blockchain.jpg"
+      "image": "/img/4.jpg"
     },
     {
       "id": 5,
@@ -37,7 +37,7 @@
       "title": "Virtual Reality: Transforming Experiences",
       "excerpt": "Virtual reality (VR) is transforming industries, offering immersive experiences previously unimaginable...",
       "content": "## Introduction\nVirtual reality is rapidly transforming industries such as gaming, education, healthcare, and training...",
-      "image": "virtual-reality.jpg"
+      "image": "/img/5.jpg"
     },
     {
       "id": 6,
@@ -45,7 +45,7 @@
       "title": "Artificial Intelligence in Everyday Life",
       "excerpt": "Artificial intelligence (AI) has permeated daily life, streamlining tasks and enhancing convenience for users globally...",
       "content": "## Introduction\nArtificial intelligence is becoming increasingly prevalent in daily life, embedded in everything from smartphones to home appliances...",
-      "image": "ai-everyday.jpg"
+      "image": "/img/5.jpg"
     },
     {
       "id": 7,
@@ -53,7 +53,7 @@
       "title": "The Rise of Remote Work",
       "excerpt": "Remote work has surged globally, transforming workplace dynamics and influencing corporate policies extensively...",
       "content": "## Introduction\nRemote work has become an integral part of modern employment, driven by technology and changing work attitudes...",
-      "image": "remote-work.jpg"
+      "image": "/img/5.jpg"
     },
     {
       "id": 8,
@@ -61,7 +61,7 @@
       "title": "Cybersecurity Trends to Watch",
       "excerpt": "Cybersecurity continues to evolve rapidly as threats become more sophisticated and organizations enhance defenses...",
       "content": "## Introduction\nCybersecurity remains a critical issue as digital threats evolve, requiring advanced methods for protection...",
-      "image": "cybersecurity.jpg"
+      "image": "/img/6.jpg"
     },
     {
       "id": 9,
@@ -69,7 +69,7 @@
       "title": "The Impact of Big Data Analytics",
       "excerpt": "Big data analytics allows businesses to uncover deep insights, streamline operations, and enhance customer satisfaction...",
       "content": "## Introduction\nBig data analytics provides powerful tools to analyze vast data sets, uncovering insights and driving informed decisions...",
-      "image": "big-data.jpg"
+      "image": "/img/7.jpg"
     },
     {
       "id": 10,
@@ -77,7 +77,7 @@
       "title": "5G Technology: A New Era of Connectivity",
       "excerpt": "5G technology promises unprecedented speed, efficiency, and connectivity, shaping the future of digital interactions...",
       "content": "## Introduction\n5G technology represents a transformative leap forward in connectivity, enabling faster speeds, lower latency, and expanded capabilities...",
-      "image": "5g-technology.jpg"
+      "image": "/img/1.jpg"
     },
     {
         "id": 11,
@@ -85,7 +85,7 @@
         "title": "Exploring the Wonders of Machine Learning",
         "excerpt": "Machine learning has revolutionized various industries by automating complex processes and uncovering hidden patterns within massive data sets...",
         "content": "## Introduction\nMachine learning, a subset of artificial intelligence...",
-        "image": "machine-learning.jpg"
+        "image": "/img/2.jpg"
       },
       {
         "id": 12,
@@ -93,7 +93,7 @@
         "title": "The Evolution of Web Development",
         "excerpt": "Web development has experienced a rapid evolution from simple static web pages to complex interactive applications...",
         "content": "## Introduction\nWeb development has come a long way since the first static HTML pages...",
-        "image": "web-development.jpg"
+        "image": "/img/3.jpg"
       },
       {
         "id": 13,
@@ -101,7 +101,7 @@
         "title": "Advancements in Renewable Energy",
         "excerpt": "Renewable energy sources have significantly advanced, offering cleaner alternatives and helping combat climate change...",
         "content": "## Introduction\nRenewable energy has seen significant advancements, driven by global efforts to reduce greenhouse gas emissions...",
-        "image": "renewable-energy.jpg"
+        "image": "/img/4.jpg"
       },
       {
         "id": 14,
@@ -109,7 +109,7 @@
         "title": "Blockchain Beyond Cryptocurrency",
         "excerpt": "Blockchain technology, while widely known for cryptocurrencies, is being utilized in diverse sectors from healthcare to logistics...",
         "content": "## Introduction\nBlockchain technology emerged as the backbone of cryptocurrencies but has since expanded into numerous other industries...",
-        "image": "blockchain.jpg"
+        "image": "/img/5.jpg"
       },
       {
         "id": 15,
@@ -117,7 +117,7 @@
         "title": "Virtual Reality: Transforming Experiences",
         "excerpt": "Virtual reality (VR) is transforming industries, offering immersive experiences previously unimaginable...",
         "content": "## Introduction\nVirtual reality is rapidly transforming industries such as gaming, education, healthcare, and training...",
-        "image": "virtual-reality.jpg"
+        "image": "/img/6.jpg"
       },
       {
         "id": 16,
@@ -125,7 +125,7 @@
         "title": "Artificial Intelligence in Everyday Life",
         "excerpt": "Artificial intelligence (AI) has permeated daily life, streamlining tasks and enhancing convenience for users globally...",
         "content": "## Introduction\nArtificial intelligence is becoming increasingly prevalent in daily life, embedded in everything from smartphones to home appliances...",
-        "image": "ai-everyday.jpg"
+        "image": "/img/7.jpg"
       },
       {
         "id": 17,
@@ -133,7 +133,7 @@
         "title": "The Rise of Remote Work",
         "excerpt": "Remote work has surged globally, transforming workplace dynamics and influencing corporate policies extensively...",
         "content": "## Introduction\nRemote work has become an integral part of modern employment, driven by technology and changing work attitudes...",
-        "image": "remote-work.jpg"
+        "image": "/img/1.jpg"
       },
       {
         "id": 18,
@@ -141,7 +141,7 @@
         "title": "Cybersecurity Trends to Watch",
         "excerpt": "Cybersecurity continues to evolve rapidly as threats become more sophisticated and organizations enhance defenses...",
         "content": "## Introduction\nCybersecurity remains a critical issue as digital threats evolve, requiring advanced methods for protection...",
-        "image": "cybersecurity.jpg"
+        "image": "/img/2.jpg"
       },
       {
         "id": 19,
@@ -149,7 +149,7 @@
         "title": "The Impact of Big Data Analytics",
         "excerpt": "Big data analytics allows businesses to uncover deep insights, streamline operations, and enhance customer satisfaction...",
         "content": "## Introduction\nBig data analytics provides powerful tools to analyze vast data sets, uncovering insights and driving informed decisions...",
-        "image": "big-data.jpg"
+        "image": "/img/3.jpg"
       },
       {
         "id": 20,
@@ -157,6 +157,6 @@
         "title": "5G Technology: A New Era of Connectivity",
         "excerpt": "5G technology promises unprecedented speed, efficiency, and connectivity, shaping the future of digital interactions...",
         "content": "## Introduction\n5G technology represents a transformative leap forward in connectivity, enabling faster speeds, lower latency, and expanded capabilities...",
-        "image": "5g-technology.jpg"
+        "image": "/img/4.jpg"
       }
   ]
