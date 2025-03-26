@@ -1,4 +1,4 @@
-import { AppBar, Toolbar, Typography, Box, IconButton, Button } from '@mui/material';
+import { AppBar, Toolbar, Box, IconButton } from '@mui/material';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { WriteButton } from './WriteButton';
 

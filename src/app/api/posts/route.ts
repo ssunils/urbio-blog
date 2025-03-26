@@ -1,8 +1,7 @@
-// src/app/api/posts/route.ts
 import { NextRequest, NextResponse } from 'next/server';
 
-import posts from '../mock/posts.json';
-import { Post } from '@/app/types/blog';
+import posts from '@/mock/posts.json';
+import { Post } from '@/types/blog';
 
 const mockArticles: Post[] = [];
 

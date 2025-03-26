@@ -1,6 +1,5 @@
-import { Stack } from "@mui/material";
 import BlogCard from "./BlogCard";
-import { Post } from "@/app/types/blog";
+import { Post } from "@/types/blog";
 import { JSX } from "react";
 import { dehydrate, HydrationBoundary, QueryClient } from "@tanstack/react-query";
 import { fetchPosts } from "@/service/posts";

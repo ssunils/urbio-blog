@@ -3,10 +3,11 @@
 import * as React from 'react';
 import { ThemeProvider, CssBaseline } from '@mui/material';
 import { useMediaQuery } from '@mui/material';
-import darkTheme from '@/app/theme/darkTheme';
-import lightTheme from '@/app/theme/lightTheme';
+import darkTheme from '@/theme/darkTheme';
+import lightTheme from '@/theme/lightTheme';
 
-export default function ThemeRegistry({ children }: { children: React.ReactNode }) {
+
+ const ThemeRegistry = ({ children }: { children: React.ReactNode }) => {
   const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
 
   return (
@@ -17,3 +18,4 @@ export default function ThemeRegistry({ children }: { children: React.ReactNode 
   );
 }
 
+export default ThemeRegistry;

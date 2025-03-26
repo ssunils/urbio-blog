@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { Card, CardContent, Typography, Chip, Box, SxProps } from '@mui/material';
-import { Post } from '@/app/types/blog';
+import { Post } from '@/types/blog';
 
 const BlogImage: React.FC<{ src: string, sx: SxProps }> = ({ src, sx }) => {
   return (

@@ -1,8 +1,7 @@
 import React from 'react';
-import { Box, Button, Chip, Container, Grid2, Stack, Typography } from '@mui/material';
+import { Container, Grid2 } from '@mui/material';
 import BlogList from '@/components/BlogList';
 import { fetchPosts } from '@/service/posts';
-import Link from 'next/link';
 import { SideBar } from '@/components/SideBar';
 
 export default async function HomePage() {

@@ -5,8 +5,12 @@ import MuiMarkdown from 'mui-markdown';
 import { ArrowLeft } from '@mui/icons-material';
 import { SideBar } from '@/components/SideBar';
 
-export default async function PostDetailPage({ params }: { params: { id: number } }) {
-    const postDetail = await fetchPostDetail(params.id);
+const PostDetailPage = async (
+    
+  { params }: { params: Promise<{ id: string }> }
+) => {
+    const { id } = await params;
+    const postDetail = await fetchPostDetail(Number(id));
 
     return (
         <Container maxWidth="lg" sx={{ my: 6 }}>
@@ -21,12 +25,12 @@ export default async function PostDetailPage({ params }: { params: { id: number 
                     <Chip label={`${postDetail.author}`} color="primary" size="small" variant="outlined" sx={{ mb: 1, mt: 4 }} />
                     <Divider sx={{ my: 2 }} />
 
-                    <img
+                    {/* <img
                         src={'/img/banner.jpg'}
                         srcSet={`/img/banner.jpg 2x`}
                         alt={postDetail.image}
                         style={{ objectFit: 'cover',maxWidth: '100%', marginBottom: 15 }}
-                    />
+                    /> */}
                     <MuiMarkdown>{postDetail.content}</MuiMarkdown>
                 </Grid2>
                 <Grid2 size={{ xs: 12, md: 3 }} sx={{
@@ -39,3 +43,5 @@ export default async function PostDetailPage({ params }: { params: { id: number 
         </Container>
     );
 }
+
+export default PostDetailPage;
